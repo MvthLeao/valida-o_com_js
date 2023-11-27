@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <h1>* Descubra a regra do jogo *</h1>
+    </header>
+    <section>
+            <h3>Preencha ambos os campos com números inteiros</h3>
+        <div class="formulario">
+            <form id="valid-form">
+                <input type="number" id="n1" placeholder="Primeiro número" required>
+                <input type="number" id="n2" placeholder="Segundo número" required>
+                <p class="error-message">INVÁLIDO</p>
+                <p class="success-message">VALIDADO COM SUCESSO </p>
+                <button type="submit" id="btn">Validar</button>
+            </form>
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>

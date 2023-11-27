@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(216, 216, 216);
+}
+
+body {
+    display: block;
+}
+
+header h1 {
+    margin: 18px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(34, 34, 153);
+    color: aliceblue;
+}
+section h3 {
+    margin: 8px;
+    margin-top: 200px;
+    padding: 14px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    color: rgb(34, 34, 153);
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+form input, form button {
+    display: block;
+    margin: 6px;
+    width: 250px;
+    padding: 3px;
+    border-color: rgb(245, 245, 245);
+}
+
+form button {
+    background-color: rgb(34, 34, 153);
+    color: aliceblue;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(83, 83, 205);
+}
+
+input:focus {
+    outline-color: rgb(83, 83, 205);
+}
+
+.success-message {
+    color: #fff;
+    background-color: #27ae60;
+    font-size: 15px;
+    padding: 5px;
+    margin-bottom: 8px;
+    display: none;
+    text-align: center;
+}
+
+.error-message {
+    color: #fff;
+    background-color: red;
+    font-size: 15px;
+    padding: 5px;
+    margin-bottom: 8px;
+    display: none;
+    text-align: center;
+
+}
